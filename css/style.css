@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    color:white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color:#ec5353;
+}
+.nav-link:focus{
+    color:#ec5353;
+}
+.navbar{
+ background:#222831;
+ color: white;
+
+}
+.navbar-brand{
+    color: #ec5353;
+    font-family: 'Pacifico', cursive;
+    
+}
+.nav-item {
+    padding-right: 50px;
+}
+span{
+    color: #ec5353;
+}
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+.button1{
+    height:55px;
+    width:160px;
+    color:white;
+    outline:none;
+    border:none;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;      
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}      
+
+  .button1:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .card-title{ text-align: center;
+    color:  #ec5353;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+   
