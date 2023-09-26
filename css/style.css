@@ -70,3 +70,27 @@ span{
     margin-bottom: 20px;
 }
    
+/* Main Cards */
+.MainCard{
+    margin-top:-80px;
+}
+.MainCard h5 {
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+.MainCard a{
+    text-decoration: none;
+    color:  #ec5353;
+}
+.back:hover { 
+    color: white;
+    cursor: pointer;
+
+}
+.back{
+    position: relative;
+    z-index: 1;
+    overflow:hidden;
+    transition:all 0.8s;
+   
+}
