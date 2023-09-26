@@ -94,3 +94,23 @@ span{
     transition:all 0.8s;
    
 }
+.back::before{
+    content: "";
+    position: absolute;
+    height: 0px ; 
+    width:100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%); 
+    z-index: -1;
+    transition:all 0.8s;
+
+}
+.back:hover::before{
+    height: 100%;
+}
+.back:hover a{
+    color: white;
+    cursor: pointer;
+
+}
