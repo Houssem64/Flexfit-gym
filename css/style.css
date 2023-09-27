@@ -23,6 +23,13 @@
     color: #ec5353;
     font-family: 'Pacifico', cursive;
     
+    
+}
+.navbar-brand h2{
+    color: #ec5353;
+    font-family: 'Pacifico', cursive;
+    
+    
 }
 .nav-item {
     padding-right: 50px;
@@ -152,9 +159,39 @@ span{
     cursor: pointer;}
 
 
-.contact{
-    background-color: black;
 
+
+    /* about section */
+
+    .about-section h2 {
+        font-weight:750 ;
+    }
+    .about-section p{
+        font-weight: lighter;
+
+
+    }
+    p { 
+        font-size:1.1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* contact section */
+
+
+.contact{
+    background-image: url('../img/contact.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+margin-top: 50px;
     padding: 50px 0px;
 }
 .contact-form{
@@ -169,14 +206,35 @@ span{
     font-size: 42px;
     font-weight: 700;
     margin-bottom: 20px;
+    
 }
 .contact-text { 
     color: #ec5353;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 .list-unstyled{color: #ec5353;
     font-size: 15px;
     font-weight: 700;
-    margin-bottom: 20px; }
+    margin-bottom: 20px; } 
+
+/* footer */
+
+.footer-nav-link{
+    color:black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.footer-nav-link:hover{
+    color:#ec5353;
+}
+.footer-nav-link:focus{
+    color:#ec5353;
+}
+.footer-navbar{
+ background:#222831;
+ color: white;
+
+}
