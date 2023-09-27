@@ -152,3 +152,31 @@ span{
     cursor: pointer;}
 
 
+.contact{
+    background-color: black;
+
+    padding: 50px 0px;
+}
+.contact-form{
+    background-color: white;
+    margin-left: 10%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.contact-title { 
+    color: #ec5353;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contact-text { 
+    color: #ec5353;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.list-unstyled{color: #ec5353;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px; }
