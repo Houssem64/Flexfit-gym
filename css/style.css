@@ -19,18 +19,12 @@
  color: white;
 
 }
-.navbar-brand{
-    color: #ec5353;
-    font-family: 'Pacifico', cursive;
-    
-    
-}
-.navbar-brand h2{
-    color: #ec5353;
-    font-family: 'Pacifico', cursive;
-    
+.navbar-brand img{
+    height:50px;
+    width: auto;
     
 }
+
 .nav-item {
     padding-right: 50px;
 }
