@@ -114,3 +114,41 @@ span{
     cursor: pointer;
 
 }
+/* pricing section*/
+.pricing {
+    border:none;
+    background-color: white;
+    padding: 10px 50px;
+    position: relative;
+   
+    overflow:hidden;
+    transition:all 0.8s;
+  }
+
+
+
+  .pricing:hover {
+
+    background: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%); 
+    transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    backface-visibility: hidden; 
+    will-change: transform;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+    color: white;
+    cursor: pointer;
+  }
+
+  .pricing:hover::after {
+    height: 100%;
+  }
+  .pricing:hover div{
+    
+    color: white;
+    cursor: pointer;
+
+}
+.pricing:hover h5{color: white;
+    cursor: pointer;}
+
+

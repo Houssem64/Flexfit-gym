@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    
     <title>FlexFit Gym</title>
 </head>
 <body>
@@ -26,10 +26,10 @@
             <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#Features">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#Pricing">Pricing</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -62,7 +62,8 @@
 <!-- style="background-color: black; padding: 50px" 
 <span class="card-title">Why choose us?</span>
 --> 
-<section class="MainCard" > 
+
+<section class="MainCard" id="Features" > 
   <div class="container" >
     <div class="row">
       <div class="col-lg-4 mb-2">
@@ -75,10 +76,181 @@
         </div>
       </div>
     </div>
+    <div class="col-lg-4 mb-2">
+      <div class="card back broder-0 py-5 px-3">
+        <div class="card-body">
+          <h5> Private Coaches </h5>
+          <p class="py-3">Our team of dedicated private coaches is here to guide you on your path to health and wellness. Whether you're a beginner looking  or an experienced athlete , our private coaches are committed to tailoring a program that meets your unique goals and needs. </p>
+            <a href="#">--MORE DETAILS</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-2">
+      <div class="card back broder-0 py-5 px-3">
+        <div class="card-body">
+          <h5> Modern equipment </h5>
+          <p class="py-3">we're more than just a gym, we're a thriving fitness community of like-minded individuals that's all about support, motivation, and achieving your goals together. We believe that fitness is not just an individual journey, it's a shared experience.</p>
+            <a href="#">--MORE DETAILS</a>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
 </section>
+<!-- Pricing Section-->
+<section>
+<div class="container-fluid"  style=" margin-top: 50px; background-image: url(../Flexfit-gym/img/pricing-bg.jpg);">
+  <div  class="container p-5">
+    <div class="row" id="Pricing" >
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="pricing h-100 shadow-lg">
+          <div class="card-body">
+            <div class="text-center p-3">
+              <h5 class="card-title">Basic Membership</h5>
+  
+              <br><br>
+              <span class="h2">60 TND</span>/month
+              <br><br>
+            </div>
+            <p >Are you ready to kickstart your fitness journey? Our Basic Membership is the perfect entry point. Or Upgrade to access additional services</p>
+          </div>
+          <ul style="margin-top: 20px;">
+            <li >Access to our fully equipped gym during regular hours.
+          </li>
+            <li > Use of cardio machines and free weights.
+            </li>
+            <li > Locker room and shower facilities.
+            </li>
+          </ul>
+          <div class="card-body text-center">
+            <button class="btn btn-danger btn-lg" style="border-radius:30px">Start</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="pricing h-100 shadow-lg">
+          <div class="card-body">
+            <div class="text-center p-3">
+              <h5 class="card-title">Standard Membership</h5>
+              
+              <br><br>
+              <span class="h2">100 TND</span>/month 
+              <br><br>
+            </div>
+            <p >Our Standard Membership offers a comprehensive package for those looking to make fitness a consistent part of their lifestyle.</p>
+          </div>
+          <ul style="margin-top: 20px;">
+            <li >All Basic Membership features.</li>
+            <li > Unlimited access to group fitness classes.</li>
+            <li> Discounts on personal training sessions.</li>
+          </ul>
+          <div class="card-body text-center">
+            <button class="btn btn-danger btn-lg" style="border-radius:30px">Start</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="pricing h-100 shadow-lg">
+          <div class="card-body">
+            <div class="text-center p-3">
+              <h5 class="card-title">Premium Membership</h5>
+              
+              <br><br>
+              <span class="h2">150 TND</span>/month
+              <br><br>
+            </div>
+            <p >Elevate your fitness experience with our Premium Membership.  With the Premium Membership, your journey to peak fitness has no limits.</p>
+          </div>
+          <ul style="margin-top: 20px;">
+            <li >All Basic and Standard Membership features.</li>
+            <li>Unlimited access to premium amenities.</li>
+            <li> Exclusive member rewards program for added benefits.
+            </li>
+          </ul>
+          <div class="card-body text-center">
+            <button class="btn btn-danger btn-lg" style="border-radius:30px">Start</button>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+</section>
+<!--============== Contact us ===================-->
+<!--Section: Contact v.2-->
+<section class="m-5">
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+  <p class="text-center mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+  <div class="row">
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <div class="row mt-4">
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
+                    
+                      </div>
+                  </div>         
+                  <div class="col-md-6 " >
+                      <div class="md-form mb-0">
+                          <input type="text" placeholder="Your Email" id="email" name="email" class="form-control">
+                         
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 mt-4">
+                      <div class="md-form mb-0">
+                          <input type="text" placeholder="Subject" id="subject" name="subject" class="form-control">
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+
+                
+                  <div class="col-md-12 mt-4">
+
+                      <div class="md-form">
+                          <textarea type="text" placeholder="Your message" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        
+                      </div>
+
+                  </div>
+              </div>
+            
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary mt-5" >Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+   
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Nabeul, Nabeul 8004, TN</p>
+              </li>
+
+              <li>
+                  <p>+216 </p>
+              </li>
+
+              <li>
+                  <p>contact@mdbootstrap.com</p>
+              </li>
+          </ul>
+      </div>
+     
+
+  </div>
+
+</section>
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
