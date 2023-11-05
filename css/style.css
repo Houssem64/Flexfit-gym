@@ -51,7 +51,7 @@ span{
 }
 .button1{
     height:55px;
-    width:160px;
+    width:180px;
     color:white;
     outline:none;
     border:none;
@@ -78,7 +78,11 @@ span{
     font-size: 24px;
     margin-bottom: 20px;
 }
-
+a { 
+    text-decoration:none !important;
+    color: #ffffff;
+   
+}
 /* scroll back to top button */
 
 #myBtn {
