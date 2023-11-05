@@ -15,9 +15,13 @@
     color:#ec5353;
 }
 .navbar{
- background:#222831;
+ background:#222831 !important;
  color: white;
 
+
+}
+.navbar-toggler{
+    background-color: #ec5353 !important;
 }
 .navbar-brand img{
     height:50px;
@@ -231,4 +235,55 @@ margin-top: 50px;
  background:#222831;
  color: white;
 
+}
+.custom-toggler .navbar-toggler {
+    border-color:#ec5353;
+}
+
+
+/* bmi calculator */
+
+
+h4 { 
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ec5353;
+}
+.bmi-category{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color:black;
+}
+.bmi-chart {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.bmi-chart h2 {
+    text-align: center;
+}
+
+.bmi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bmi-table th, .bmi-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.bmi-table th {
+    background-color: #f2f2f2;
+}
+
+.bmi-table th:first-child, .bmi-table td:first-child {
+    text-align: left;
 }
