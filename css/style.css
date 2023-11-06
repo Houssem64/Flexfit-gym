@@ -316,3 +316,35 @@ h4 {
 .bmi-table th:first-child, .bmi-table td:first-child {
     text-align: left;
 }
+
+
+
+
+/* coach */
+.coach-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .coach-card img {
+    max-width: 100%;
+    border-radius: 5%;
+  }
+  
+  .coach-card h4 {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .coach-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }

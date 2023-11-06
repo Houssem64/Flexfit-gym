@@ -61,84 +61,54 @@
   </nav>
 
 
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-        <h2 class="text-center">Sign Up for Gym Membership</h2>
-        <form id="signup-form" class="needs-validation" novalidate>
-          <div class="mb-3">
-            <label for="full-name" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="full-name" name="full-name" required>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-          </div>
-          <div class="mb-3">
-            <label for="phone" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="phone" name="phone" required>
-          </div>
-          <div class="mb-3">
-            <label for="membership-type" class="form-label">Membership Type</label>
-            <select class="form-select" id="membership-type" name="membership-type" required>
-              <option value="" disabled selected>Select Membership Type</option>
-              <option value="basic">Basic - 60 TND</option>
-              <option value="premium">Standard - 100 TND</option>
-              <option value="premium">Premium - 150 TND</option>
-            </select>
-          </div>
-         
-          <div class="mb-3">
-            <label class="form-label">Payment Method</label>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="payment-method" id="paypal" value="paypal" required>
-              <label class="form-check-label" for="paypal">
-                <i class="fab fa-paypal"></i> PayPal
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="payment-method" id="mastercard" value="mastercard" required>
-              <label class="form-check-label" for="mastercard">
-                <i class="fab fa-cc-mastercard"></i> Mastercard
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="payment-method" id="visa" value="visa" required>
-              <label class="form-check-label" for="visa">
-                <i class="fab fa-cc-visa"></i> Visa
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="payment-method" id="cash" value="cash" required>
-              <label class="form-check-label" for="cash">
-                <i class="fas fa-money-bill-alt"></i> Cash
-              </label>
-            </div>
-          </div>
 
 
+  <!-- main section-->
 
-          <div class="mb-3">
-            <label for="agree-terms" class="form-check-label">
-              <input type="checkbox" class="form-check-input" id="agree-terms" name="agree-terms" required>
-              I agree to the terms and conditions
-            </label>
-          </div>
-          <button type="submit" class="btn btn-primary">Sign Up</button>
-        </form>
+  <section id="body-fat-calculator" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Body Fat Calculator</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form id="body-fat-form" class="mt-4">
+            <div class="mb-3">
+              <label for="gender" class="form-label">Gender:</label>
+              <select class="form-select" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="age" class="form-label">Age:</label>
+              <input type="number" class="form-control" id="age" required>
+            </div>
+            <div class="mb-3">
+              <label for="weight" class="form-label">Weight (in kg):</label>
+              <input type="number" class="form-control" id="weight" required>
+            </div>
+            <div class="mb-3">
+              <label for="height" class="form-label">Height (in cm):</label>
+              <input type="number" class="form-control" id="height" required>
+            </div>
+            <button type="button" class="btn btn-primary btn-block" id="calculate-body-fat">Calculate Body Fat</button>
+          </form>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+          <div id="body-fat-result" class="text-center"></div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+  
 
 
 
 
 
 
-
-
-
-<!-- Footer -->
+  <!-- Footer -->
 <div class="container">
     <footer class="footer py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
