@@ -2,7 +2,7 @@
 
 ## Introduction
 Welcome to the documentation for the FlexFit Gym website. This README provides an overview of the existing website, its features, and technologies used in its development.
-Link: https://houssemmehouachi.me/Flexfit-gym/
+Link: https://flexfit-gym.vercel.app/
 
 ## Website Overview
 The FlexFit Gym website is a modern, responsive platform designed to showcase the services, class schedules, trainers, and membership options offered by FlexFit Gym, a premier fitness facility.
