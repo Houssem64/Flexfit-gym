@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
       if (!isNaN(weight) && !isNaN(height) && !isNaN(age)) {
         const bmiResult = document.getElementById("bmi-result");
-        let bmiCategory = "";
+        let bmiCategory;
   
        
         const bmi = weight / (height * height) + (0.4 * age);
